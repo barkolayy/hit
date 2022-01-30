@@ -1,4 +1,4 @@
-a[href^='http://']{
+p[title*='привет']{
     color:  red;
     font-size: 40px;
 }
