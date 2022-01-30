@@ -1,4 +1,11 @@
-p[title*='привет']{
-    color:  red;
-    font-size: 40px;
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: green;
+}
+
+a:active{
+	color: black;
 }
