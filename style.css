@@ -1,7 +1,4 @@
-.fc li:last-child{
+li:nth-child(3){
 	color: red;
 }
 
-.lc li:last-child{
-	color: red;
-}
