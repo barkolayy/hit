@@ -1,9 +1,9 @@
 #elem{
-	color: white;
-	text-align: center;
 	width: 200px;
 	height: 150px;
-	background-color: #4dee99;
+	border-width: 2px;
+	border-style: solid;
+	border-color: blue;
 }
 
 
