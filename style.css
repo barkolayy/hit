@@ -1,10 +1,7 @@
-.block a.zzz {
+.fc li:first-child{
 	color: red;
 }
-.block a.zzz:hover {
-	text-decoration: none;
-}
 
-p{
-	color:  #b20f1f;
+.lc li:last-child{
+	color: red;
 }
