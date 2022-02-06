@@ -1,4 +1,4 @@
-.fc li:first-child{
+.fc li:last-child{
 	color: red;
 }
 
