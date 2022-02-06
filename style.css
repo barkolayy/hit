@@ -1,9 +1,9 @@
 #elem{
 	width: 200px;
 	height: 150px;
-	border-width: 2px;
-	border-style: dashed;
-	border-color: yellow;
+	border-width: 3px;
+	border-style: double;
+	border-color: blue;
 }
 
 
