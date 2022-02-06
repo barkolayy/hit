@@ -1,5 +1,11 @@
-li:only-child{
-	color: red;
+li{
+	width: 50px;
+	border: 1px solid darkred;
+	margin-bottom: 5px;
+}
+
+li:empty{
+	border: 1px solid blue;
 }
 
 
