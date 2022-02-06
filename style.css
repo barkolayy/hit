@@ -1,4 +1,4 @@
-li:not(.elem){
+li:not(:first-child){
 	color: red;
 }
 
