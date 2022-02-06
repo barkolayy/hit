@@ -1,5 +1,9 @@
-li:first-of-type, li:last-of-type{
+li:nth-of-type(odd){
 	color: red;
+}
+
+li:nth-last-of-type(odd){
+	color: green;
 }
 
 
