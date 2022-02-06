@@ -1,7 +1,9 @@
 #elem{
-	width: 150px;
+	color: white;
+	text-align: center;
+	width: 200px;
 	height: 150px;
-	background-color: blue;
+	background-color: #4dee99;
 }
 
 
