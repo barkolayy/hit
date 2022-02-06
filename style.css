@@ -1,8 +1,8 @@
-li:nth-of-type(odd){
+li{
 	color: red;
 }
 
-li:nth-last-of-type(odd){
+li:only-child{
 	color: green;
 }
 
