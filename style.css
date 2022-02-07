@@ -1,9 +1,19 @@
-a{
-	color:blue;
-	text-decoration: none;
+.main{
+	width: 400px;
+	border: 1px solid green;
+	margin:60px auto;
 }
 
-a:hover{
-	text-decoration: none;
-    color: red;
+.nav{
+	border-bottom: 1px solid #79b81c;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	height: 50px;
+	background-color: #C4CD14;
 }
