@@ -1,9 +1,16 @@
-a{
-	color:blue;
-	text-decoration: none;
+#parent {
+	width: 900px;
+	height: 700px;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
 }
 
-a:hover{
-	text-decoration: none;
-    color: red;
+#child {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	position: absolute;
+	top:200px;
+	left:200px;
 }
