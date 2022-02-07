@@ -1,9 +1,25 @@
-a{
-	color:blue;
-	text-decoration: none;
+.big{
+	width: 400px;
+	height: 400px;
+	margin: 70px auto;
+	border: 1px solid green;
+	position: relative;
 }
 
-a:hover{
-	text-decoration: none;
-    color: red;
+.small-left{
+
+	width: 40px;
+	height: 40px;
+	border: 1px solid red;
+	position:absolute;
+	left: -80px;
+}
+
+.small-right{
+
+	width: 40px;
+	height: 40px;
+	border: 1px solid red;
+	position:absolute;
+	right:-80px;
 }
