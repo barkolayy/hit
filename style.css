@@ -1,10 +1,10 @@
 #parent {
-	width: 600px;
-	height: 400px;
+	width: 150px;
+	height: 480px;
 	margin: 0 auto;
-	border: 1px solid #4DEE99;
+	border: 1px solid #000;
 	position: relative;
-	background-color: #4DEE99;
+	background-color: white;
 }
 
 #child-1{
@@ -12,10 +12,11 @@
 	height: 100px;
 	border: 1px solid green;
 	position: absolute;
-	top:60px;
-	left:60px;
-	border: 1px solid #fff;
-	background-color: white;
+	top:75px;
+	left:25px;
+	border: 1px solid #000;
+	background-color: red;
+	border-radius: 50%;
 }
 
 #child-2{
@@ -24,7 +25,24 @@
 	border: 1px solid green;
 	position: absolute;
 	bottom:60px;
-	right: 60px;
-	border: 1px solid #fff;
-	background-color: white;
+	top: 190px ;
+	left: 25px;
+	border: 1px solid #000;
+	background-color: yellow;
+	border-radius: 50%;
 }
+
+#child-3{
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	position: absolute;
+	bottom:60px;
+	top: 305px ;
+	left: 25px;
+	right: 60px;
+	border: 1px solid #000;
+	background-color: green;
+	border-radius: 50%;
+}
+
