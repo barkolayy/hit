@@ -1,36 +1,51 @@
-#wrapper{
-	width: 700px;
-	border: 1px solid #000;
-	margin: 50px auto;
-	margin-bottom: 0;
+html, body{
+	margin: 0;
+	padding: 0;
 }
+
+#wrapper{
+	width: 900px;
+	border: 1px solid #FC9D00;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
 .nav{
 	margin-top: 0;
 	display: flex;
 	flex-direction: row;
-	background-color: #484848;
+	background-color: #FC9D00;
 }
 
 .nav a{
-	padding: 10px 15px;
+	padding: 15px 25px;
 	
 	text-decoration: none;
 	color: #fff;
-	background-color: #484848;
+	background-color: #FC9D00;
 	max-width: px;
-	font: bold 16px Arial;
+	font: bold 15px Arial;
 	box-sizing: border-box;
 }
 
 .nav .active, a:hover{
 	background-color: #fff;
-	color: #484848;
+	color: #FC9D00;
 	box-sizing: border-box;
 } 
 
 .content h1{
+	font: 30px "Times New Roman";
     text-align: center;
     margin-bottom: 10px;
+    color: #9B6100;
+}
+
+.content h2{
+	font: 25px "Times New Roman";
+	text-align: center;
+    margin-bottom: 10px;
+    color: #9B6100;	
 }
 
 .content{
@@ -38,19 +53,38 @@
 }
 
 .content p{
-	font: 17px/20px "Times New Roman";
+	font: 17px/33px "Times New Roman";
 	padding: 0 10px;
+	text-indent: 50px;
+	color: #CC8000;
+	margin-bottom: 5px;
 }
 
 p a{
-	text-decoration: none;
+	text-decoration: underline;
+	color:  #CC8000;
 	font-weight: bold;
-	color:  blue;
 }
 
 p a:hover{
-	text-decoration: underline;
-	color:  green;
+	text-decoration: none;
+	color:  black;
 }
 
+.foot{
+	display: flex;
+	justify-content: center;
 
+}
+
+.foot a{
+	margin: 0 10px;
+	color: #9B6100;
+	font: bold 13px Arial;
+	text-decoration: none;
+}
+
+.foot a:hover{
+	text-decoration: underline;
+	color: black;
+}
