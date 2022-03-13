@@ -1,25 +1,20 @@
 .nav{
 	display: flex;
-	flex-direction: row;
-	
+	flex-direction: row;	
 	max-width: 400px;
 }
 
 a{
 	padding: 10px;
-	margin: 5px;
 	text-decoration: none;
 	color: #fff;
 	background-color: #16A177;
-	max-width: px;
+	max-width: 90px;
 	font: 16px Arial;
 	box-sizing: border-box;
-	border: 1px solid #16A177;
 }
 
 .active, a:hover{
-	background-color: #fff;
-	color: #16A177;
-	
+	background-color: #16785C;	
 	box-sizing: border-box;
 }
