@@ -1,10 +1,25 @@
-#elem{
-	width: 200px;
-	height: 150px;
-	border-left: 3px solid orange;
-	border-right: 3px solid green;
-	border-top: 3px solid blue;
-	border-bottom: 3px solid red;
+.nav{
+	display: flex;
+	flex-direction: row;
+	
+	max-width: 400px;
 }
 
+a{
+	padding: 10px;
+	margin: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #16A177;
+	max-width: px;
+	font: 16px Arial;
+	box-sizing: border-box;
+	border: 1px solid #16A177;
+}
 
+.active, a:hover{
+	background-color: #fff;
+	color: #16A177;
+	
+	box-sizing: border-box;
+}
