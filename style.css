@@ -1,7 +1,7 @@
 .parent{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	margin: 0 auto;
 	max-width: 800px;
 	height: 600px;
@@ -10,10 +10,10 @@
 
 .child{
 	width: 100px;
-	height: 80px;
+	
 	border: 1px solid green;
 }
 
 .elem{
-	align-self: flex-end;
+	align-self: center;
 }
