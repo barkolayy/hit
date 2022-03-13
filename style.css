@@ -4,87 +4,44 @@ html, body{
 }
 
 #wrapper{
-	width: 900px;
-	border: 1px solid #FC9D00;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 700px;
 	margin: 0 auto;
 	margin-bottom: 15px;
 }
 
-.nav{
-	margin-top: 0;
-	display: flex;
-	flex-direction: row;
-	background-color: #FC9D00;
-}
-
-.nav a{
-	padding: 15px 25px;
-	
-	text-decoration: none;
-	color: #fff;
-	background-color: #FC9D00;
-	max-width: px;
-	font: bold 15px Arial;
-	box-sizing: border-box;
-}
-
-.nav .active, a:hover{
-	background-color: #fff;
-	color: #FC9D00;
-	box-sizing: border-box;
-} 
-
-.content h1{
+#wrapper h1{
 	font: 30px "Times New Roman";
-    text-align: center;
-    margin-bottom: 10px;
-    color: #9B6100;
 }
 
-.content h2{
-	font: 25px "Times New Roman";
-	text-align: center;
-    margin-bottom: 10px;
-    color: #9B6100;	
-}
-
-.content{
+.content_item{
 	text-align: justify;
+	border: 1px solid #707070;
+	margin-bottom: 20px;
+	padding: 20px;
 }
 
-.content p{
-	font: 17px/33px "Times New Roman";
-	padding: 0 10px;
-	text-indent: 50px;
-	color: #CC8000;
-	margin-bottom: 5px;
+.more{
+	display: block;
+	text-align: right;
+	padding-right: 20px;
+	text-decoration: none;
+	color: blue;
 }
 
-p a{
+.more:hover{
 	text-decoration: underline;
-	color:  #CC8000;
+}
+
+.title_link{
+	text-decoration: none;
+	color:  blue;
 	font-weight: bold;
 }
 
-p a:hover{
-	text-decoration: none;
-	color:  black;
-}
-
-.foot{
-	display: flex;
-	justify-content: center;
-
-}
-
-.foot a{
-	margin: 0 10px;
-	color: #9B6100;
-	font: bold 13px Arial;
-	text-decoration: none;
-}
-
-.foot a:hover{
+.title_link:hover{
 	text-decoration: underline;
-	color: black;
 }
