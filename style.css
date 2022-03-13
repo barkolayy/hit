@@ -17,5 +17,5 @@
 
 .elem{
 	align-self: start;
-	order: -1;
+	order: 1;
 }
